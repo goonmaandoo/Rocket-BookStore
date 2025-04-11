@@ -112,7 +112,7 @@ request.setAttribute("searchKeyword", searchKeyword);
 		</div>
 		<div id="footerline">
 			<div class="ftinner">
-				<img src="../00img/ft_logo.png" alt="로켓서점">
+				<img src="00img/ft_logo.png" alt="로켓서점">
 				<ul class="footerInfor">
 					<li>서울특별시 종로구 우정국로 2025길 1</li>
 					<li>대표이사: 박수민</li>
