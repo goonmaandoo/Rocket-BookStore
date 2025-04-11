@@ -160,7 +160,9 @@ request.setAttribute("shipCount", shipDto.size());
                   <ul>
                      <li id="back1">
                         <div class="img_inner_box">
+                        <a href = "02books/bookDetail.jsp?book_id=1074">
                            <img src="/00BookJSP/00img/novel/novel4.jpg">
+                        </a>
                         </div>
                         <div id="title">
                            <div>
@@ -171,7 +173,9 @@ request.setAttribute("shipCount", shipDto.size());
                      </li>
                      <li id="back2">
                         <div class="img_inner_box">
+                        <a href = "02books/bookDetail.jsp?book_id=1077">
                            <img src="/00BookJSP/00img/novel/novel7.jpg">
+                        </a>
                         </div>
                         <div id="title">
                            <div>
@@ -182,7 +186,9 @@ request.setAttribute("shipCount", shipDto.size());
                      </li>
                      <li id="back3">
                         <div class="img_inner_box">
+                        <a href = "02books/bookDetail.jsp?book_id=1092">
                            <img src="/00BookJSP/00img/novel/novel22.jpg">
+                        </a>
                         </div>
                         <div id="title">
                            <div>
@@ -269,9 +275,11 @@ request.setAttribute("shipCount", shipDto.size());
                   <div class="table">
                      <c:forEach var="wish" begin="0" end="3" items="${wishlistDtos }">
                         <div>
+                        <a href="02books/bookDetail.jsp?book_id=${wish.book_id}">
                            <img src="${pageContext.request.contextPath}${wish.image }"
                               alt="${wish.title}">
                            <p>${wish.author }<br>${wish.title }</p>
+                        </a>
                         </div>
                      </c:forEach>
                   </div>
