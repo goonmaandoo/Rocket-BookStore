@@ -195,9 +195,11 @@ request.setAttribute("cartBookIds", cartBookIds);
                         <c:forEach var="wish" items="${wishlistDtos }">
                            <li>
                               <div class="content">
+                              <a href="02books/bookDetail.jsp?book_id=${wish.book_id}">
                                  <img src="${pageContext.request.contextPath}${wish.image}"
                                     alt="${wish.title}">
                                  <p>${wish.author}<br>${wish.title}</p>
+                              </a>
                               </div>
                               <div class="buttons">
                             <form action="/00BookJSP/08wishlist/wishlistDB.jsp" method="get">
